@@ -1,5 +1,3 @@
-# Day 1 Javascript Drum Kit
-
 
 🥁[Demo](https://skyying.github.io/Javascript-30/01%20-%20JavaScript%20Drum%20Kit/index-START.html), [Code](https://github.com/skyying/Javascript-30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
 

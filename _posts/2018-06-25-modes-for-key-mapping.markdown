@@ -1,8 +1,4 @@
 
-
-# key mapping mode in vim
-
-
 在`.vimrc`的設定內，通常會依照個人習慣重新`mapping key`, 可以讓這個`mapping` 的設定只在某些模式下使用。
 
 ## Recursive or Non-recursive 

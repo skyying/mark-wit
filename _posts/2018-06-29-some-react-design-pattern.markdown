@@ -1,12 +1,9 @@
-# Some React Design Pattern
-
-
 
 ### First class objects
 在`javascript`中, `function` 是`first class objects`意思是他們可以被指定成變數，也可以被當成參數來傳遞給其他`function`。而這個接受`function`爲參數，並且對他加料後再回傳的`function`，就叫做`higher-order-function(HoF)`
 
-
 <br>
+
 #### Higher-order-functions(HoF)
 
 `HoF`的範例
@@ -159,7 +156,7 @@ props => <button>{props.text}</button>
 
 #### what is context? 
 
-可以參考這篇文章 [Understand react context](./2018-06-26-understand-react-context.md)。
+可以參考這篇文章 [Understand react context](/2018-06-26/understand-react-context.md)。
 
 
 

@@ -1,9 +1,6 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
 
 # Basic
-name:               "mw"
+name:               "mark wit"
 
 author:
   github:           skyying 
@@ -22,9 +19,9 @@ disqus:
   id:               "Chein Wen"
 
 # URL
-url:                "https://skyying.github.io" # the base hostname & protocol for your site
+url:                "https://markwit.cc" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/mw" # the subpath of your site, e.g. /blog
+baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -32,7 +29,7 @@ timezone:           Asia/Seoul
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
+paginate:           10
 paginate_path:      /page:num/
 
 # Markdown
@@ -49,7 +46,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/skyying/mw"
+    url:            "https://github.com/skyying/mark-wit"
 
 # Sass
 sass:

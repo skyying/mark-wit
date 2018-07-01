@@ -1,5 +1,14 @@
+---
+layout: post
+title: "What is BEM?"
+description: "BEM是一種撰寫CSS的方式，主打這種寫法跟命名架構能夠讓CSS更模組化，也較傳統的寫法好維護。"
+date: 2018-06-19
+tags: [SCSS/CSS]
+comments: true
+share: true
+---
 
-# 什麼是BEM?
+---
 
 `BEM` 這三個字來自`Block`, `Element`, `Modifier`
 
@@ -22,7 +31,7 @@
 
 像是`disabled`, `highlighted`, `checked` 等等
 
-![BEM](./images/2018/06/bem.png)
+![BEM](/images/bem.png)
 
 # 爲什麼要用BEM?
 
@@ -41,7 +50,7 @@
 
 `HTML`
 
-```
+```html
 <button class="button">
 	Normal button
 </button>
@@ -55,7 +64,7 @@
 
 
 `CSS`
-```
+```css
 .button {
 	display: inline-block;
 	border-radius: 3px;
@@ -78,7 +87,7 @@
 
 # 如何命名？
 
-```
+```html
 <div class="block">
   <span class="block-element"></span>
 </div>
@@ -86,7 +95,7 @@
 
 如果最外層是`block`, 那裏面的`element`元件應該和他有語義上的關聯。像是下面的這個範例
 
-```
+```html
 <div class="menu">
   <span class="menu-item"></span>
 </div>
@@ -122,7 +131,7 @@ Block select
 * 其他：`block` 和 `element` 的連接通常用雙下線 `__`, 而 `element` 或 `block` 和 `modifier`的連接則使用單下線`_`或`--`，主要是團隊內自己有共識即可。
 
 
-```
+```css
 .b-heading
 .b-text-input
 .b__heading--light

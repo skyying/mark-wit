@@ -1,8 +1,4 @@
 
-
-
-# Single Node Rule, React Fragment, and Conditional Clauses in React
-
 ## Single Root Node
 
 React element 或 Component `return` 的物件必須只有一個主節點。

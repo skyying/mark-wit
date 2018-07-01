@@ -1,4 +1,3 @@
-# Airbnb React Style guide - Part I 
 
 
 ## Class VS React.createClass vs stateless

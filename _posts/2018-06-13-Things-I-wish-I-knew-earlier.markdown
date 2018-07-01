@@ -1,5 +1,15 @@
+---
+layout: post
+title: "Some Vim Tips"
+description: "一些提高 VIM 生產力的小方法"
+date: 2018-06-13
+tags: [vim]
+comments: true
+share: true
+---
 
-# 那些我希望能早點知道 vim 的事
+---
+
 
 ### 讓你的手跟上你的頭腦
 * 使用`.`直接重複上一個動作，有機會比`Insert Mode`的`regex`更快
@@ -37,4 +47,3 @@ iab and &&
 * `VI` 之所以叫`VI` 是有原因的，那就是儘量遠離`V` 和 `I` 這兩個 `mode`。
 
 
-[Back](https://markwit.cc)

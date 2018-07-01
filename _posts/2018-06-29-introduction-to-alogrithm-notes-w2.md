@@ -1,4 +1,3 @@
-# Introduction to Algorithms - 2
 
 ## Random Access Machine (RAM) 
 

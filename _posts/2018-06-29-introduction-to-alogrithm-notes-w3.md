@@ -1,10 +1,8 @@
-# Introduction to Algorithm - week 3
-
 
 ### Sort過幫助尋找更容易
 
 #### 尋找中位數
-如果有sort 過，找 中位數 只需要 O(1)
+如果有排序過，找中位數只需要 O(1)
 Array = [1, 2, 3, 3, 3]
 
 ```

@@ -1,6 +1,3 @@
-# 如何在React使用Font Awesome
-
-
 
 [Font Awesome](https://fontawesome.com/) 是一套免費的`css icon library`, 我是看直播才知道這麼方便，就填個`class`, `icon`就神奇的出現了，看得我嚇到吃手手，拿~麼方便的東西，我要趕緊記下來。
 
@@ -35,7 +32,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 先到[官網](https://fontawesome.com/icons?d=gallery)，點選你需要的`icon`, 進入後頁面下方就會有使用範例。
 
-![example](../images/2018/06/fa.png)
+![example](/images/fa.png)
 
 
 ```
