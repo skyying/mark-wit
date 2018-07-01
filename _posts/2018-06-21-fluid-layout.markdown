@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
----
-
 流動式佈局就是固定寬高的反義詞，當`designer`的設計稿裏面的`element`, `layout`充滿固定尺寸時，我們要如何實現
 流動式佈局呢？
 
