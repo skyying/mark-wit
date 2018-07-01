@@ -16,7 +16,7 @@ google-analytics:
 
 # Disqus
 disqus:
-id:               "https-markwit-cc"
+  id:               "https-markwit-cc"
 
 # URL
 url:                "https://markwit.cc" # the base hostname & protocol for your site
