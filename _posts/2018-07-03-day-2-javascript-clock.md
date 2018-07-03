@@ -10,12 +10,7 @@ share: true
 
 ---
 
-
-
-# Day 2 JS Clock
-
 🕰 [Demo](https://skyying.github.io/Javascript-30/02%20-%20JS%20and%20CSS%20Clock/index-START.html), [Code](https://github.com/skyying/Javascript-30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
-
 
 
 這次用`Javascript`來實作類比時鐘，需要的步驟如下
