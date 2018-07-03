@@ -1,4 +1,14 @@
+---
+layout: post
+title: "Day 1 Javascript Drum Kit"
+description: "用鍵盤就能打鼓？你信嗎？"
+date: 2018-07-01
+tags: [javascript, javascript30]
+comments: true
+share: true
+---
 
+---
 🥁[Demo](https://skyying.github.io/Javascript-30/01%20-%20JavaScript%20Drum%20Kit/index-START.html), [Code](https://github.com/skyying/Javascript-30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
 
 ## How to select element
