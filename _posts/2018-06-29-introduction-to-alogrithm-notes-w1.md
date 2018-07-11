@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Introduction to Algorithm - 1"
+description: "介紹 1D 的 Peak Search 演算法"
+date: 2018-06-29
+tags: [Algorithm]
+comments: true
+share: true
+---
+
 
 
 ## Peak search (1D)
