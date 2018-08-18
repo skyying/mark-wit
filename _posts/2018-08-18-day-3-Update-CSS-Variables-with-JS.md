@@ -11,7 +11,7 @@ share: true
 ---
 
 <br>
-🥁 [Demo](https://skyying.github.io/Javascript-30/01%20-%20JavaScript%20Drum%20Kit/index-START.html), [Code](https://github.com/skyying/Javascript-30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+🥁 [Demo](https://skyying.github.io/javascript-30/03%20-%20CSS%20Variables/index-START.html), [Code](https://github.com/skyying/javascript-30/blob/master/03%20-%20CSS%20Variables/index-START.html)
 
 ## 1. 設定css的變數
 
@@ -19,8 +19,9 @@ share: true
 
 不是只有sass才能設定CSS的變數，原來CSS自己本身就有提供設定變數的功能。
 
+在頁面的最上層宣告變數
+
 ```css
-// 在頁面的最上層宣告變數
 :root {
    --base: #ffffff;
    --spacing: 16px;
@@ -29,7 +30,7 @@ share: true
 ```
 
 
-
+<br>
 #### 宣告
 
 宣告的方式類似定義css的屬性，但需於變數名稱前方加上`--`;
@@ -38,6 +39,7 @@ share: true
 
 
 
+<br>
 #### 引用
 
 引用這個變數了，引用的方式如下
@@ -54,6 +56,7 @@ share: true
 
 
 
+<br>
 ## 2. 利用Dataset取得dom element的相關資料
 
 可以在html element上這樣設定相關的資料
@@ -64,6 +67,7 @@ share: true
 
 
 
+<br>
 如何取用？javascript 提供一個方法來取得以`data-`爲開頭的attribute的值，在`data-`的後面可以直接設定其他名稱，然後透過`element.dataset.othername`來取值。範例如下。
 
 
@@ -77,6 +81,7 @@ console.log(input.dataset.name) // sizing;
 
 只要用`element.dataset.name`的方式，就可以取得當初在html `data-name`屬性設定的值了。
 
+<br>
 
 
 #### 相關資料
