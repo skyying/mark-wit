@@ -19,8 +19,8 @@ share: true
 
 不是只有sass才能設定CSS的變數，原來CSS自己本身就有提供設定變數的功能。
 
+在頁面的最上層宣告變數
 ```css
-// 在頁面的最上層宣告變數
 :root {
    --base: #ffffff;
    --spacing: 16px;
