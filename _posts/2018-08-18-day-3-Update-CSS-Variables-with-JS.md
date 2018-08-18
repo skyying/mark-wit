@@ -20,6 +20,7 @@ share: true
 不是只有sass才能設定CSS的變數，原來CSS自己本身就有提供設定變數的功能。
 
 在頁面的最上層宣告變數
+
 ```css
 :root {
    --base: #ffffff;
@@ -29,6 +30,7 @@ share: true
 ```
 
 
+<br>
 
 #### 宣告
 
@@ -38,6 +40,7 @@ share: true
 
 
 
+<br>
 #### 引用
 
 引用這個變數了，引用的方式如下
@@ -53,6 +56,7 @@ share: true
 ```
 
 
+<br>
 
 ## 2. 利用Dataset取得dom element的相關資料
 
@@ -64,8 +68,9 @@ share: true
 
 
 
-如何取用？javascript 提供一個方法來取得以`data-`爲開頭的attribute的值，在`data-`的後面可以直接設定其他名稱，然後透過`element.dataset.othername`來取值。範例如下。
-
+<br>
+#### 取用
+javascript 提供一個方法來取得以`data-`爲開頭的attribute的值，在`data-`的後面可以直接設定其他名稱，然後透過`element.dataset.othername`來取值。範例如下。
 
 
 ```javascript
@@ -78,7 +83,7 @@ console.log(input.dataset.name) // sizing;
 只要用`element.dataset.name`的方式，就可以取得當初在html `data-name`屬性設定的值了。
 
 
-
+<br>
 #### 相關資料
 
 1. [using data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) 
