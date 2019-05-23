@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Filter false value, random sort, and IIFE"
-description: "Filter, Sort, and IIFE"
+description: "如何快速的在array中filter false
+的值，如何用sort的功能實現隨機排序，還有個經典的Closure考題哦"
 date: 2019-05-23
 tags: [javascript]
 comments: true
@@ -31,7 +32,7 @@ ary.filter(Boolean); // [1, 2, "abc"]
 
 ## How to use sort to return an randomizd array
 
-只要隨機的返回0.5~-0.5之間的值即可。
+只要隨機的返回`0.5`~`-0.5`之間的值即可。
 陣列中的元素會根據sort的比較函式的回傳值來決定排序。
 <br/>
 
