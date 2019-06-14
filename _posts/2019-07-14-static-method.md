@@ -2,7 +2,7 @@
 layout: post
 title: "What is static methods in javascript class"
 description: "所謂的靜態方法 static method 到底是怎麼回事？"
-date: 2019-06-02
+date: 2019-07-14
 tags: [javascript]
 comments: true
 share: true
