@@ -1,19 +1,17 @@
 ---
 layout: post
-title: "Javascript Weekly - Some notes"
+title: "讓你的測試失敗一下"
 description: "My reading notes"
 date: 2020-02-29
 tags: [js, reading]
 comments: true
 share: true
 ---
-Some reading notes of this weeks' javascript weekly
----
 
 ## Make your test fail
 [blog](https://kentcdodds.com/blog/make-your-test-fail), [video](https://egghead.io/lessons/jest-make-your-test-fail?pl=kent-s-blog-posts-as-screencasts-eefa540c)
 
-一個滿值得注意的寫test的概念。你的 test 都 pass 了, 先別太開心, 如果你回去改了 source code 後, tests 沒有 fail, 其實這樣的 test 更糟, 因爲他給你盲目的信心。
+一個滿值得注意的寫test的概念。你的 test 都過了，100% 綠燈, 先別太開心, 如果你回去改了原始碼後, 測試還是過了, 其實這樣的測試案例更糟, 因爲他給你盲目的信心。
 
 > And this is why it’s so important that once your test is passing, you go to the source and ensure that if you break the functionality you’re testing, that your test will fail. Otherwise, someone could inadvertently break your code and the tests wouldn’t catch that. Those kinds of tests are worse than worthless because not only do they not give you confidence, but they give you a false sense of security which means you won’t think to write good tests either.
 
